@@ -1,0 +1,27 @@
+{D:/ASUFOE/fall24/Computer Architecture/MIPS/Execute_Instruction.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/Execute_Instruction.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Execute
+-- Compiling module ALU
+-- Compiling module DataMem
+-- Compiling module BranchAddress
+
+Top level modules:
+	Execute
+
+} {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/Decode_Instruction.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/Decode_Instruction.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Decode
+-- Compiling module ControlUnit
+-- Compiling module RegisterFile
+-- Compiling module Sign_extend
+-- Compiling module ALU_control
+
+Top level modules:
+	Decode
+
+} {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/TopModule.v} {0 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/TopModule.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module TopModule
+** Error: (vlog-13069) D:/ASUFOE/fall24/Computer Architecture/MIPS/TopModule.v(10): near "Write_Data": syntax error, unexpected IDENTIFIER, expecting .* or '.'.
+
+} {4.0 5.0} {}}

@@ -1,0 +1,341 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/ASUFOE/fall24/Computer Architecture
+vALU
+Z2 !s110 1733342068
+!i10b 1
+!s100 I>Q3SB8G^]eEC3lfZK0Md1
+I<ga9NEBh3P]JkH_fHZF9B0
+Z3 dD:/ASUFOE/fall24/Computer Architecture/MIPS
+Z4 w1733340592
+Z5 8Execute_Instruction.v
+Z6 FExecute_Instruction.v
+!i122 37
+L0 30 23
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z9 !s108 1733342068.000000
+Z10 !s107 MIPS_tb.v|Execute_Instruction.v|
+Z11 !s90 -reportprogress|300|Execute_Instruction.v|MIPS_tb.v|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 tCvgOpt 0
+n@a@l@u
+vALU_control
+R2
+!i10b 1
+!s100 4hlB]dWDMU@Dj1hH4:]bM1
+I7cV>6BP>GAha?TZ0XZki:3
+R3
+Z14 w1733341808
+Z15 8Decode_Instruction.v
+Z16 FDecode_Instruction.v
+!i122 36
+L0 158 24
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z17 !s107 Decode_Instruction.v|Fetech_Instruction.v|TopModule.v|
+Z18 !s90 -reportprogress|300|TopModule.v|Fetech_Instruction.v|Decode_Instruction.v|
+!i113 0
+R12
+R13
+n@a@l@u_control
+vBranchAddress
+R2
+!i10b 1
+!s100 oB0lDi6nP;]daJ<RLM:Wi1
+IziH<Z@b_o4a8NKdCao3Bk1
+R3
+R4
+R5
+R6
+!i122 37
+L0 79 9
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n@branch@address
+vControlUnit
+R2
+!i10b 1
+!s100 cEJNc3`;R25aP15dkkKNL1
+Ig56OXT=2=ceRgh35m=cWE0
+R3
+R14
+R15
+R16
+!i122 36
+L0 43 77
+R7
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 0
+R12
+R13
+n@control@unit
+vDataMem
+R2
+!i10b 1
+!s100 A86FbZidYM_HQh3Ulb>jC0
+IK7n]L6QVk;@H2DIEHJK?K3
+R3
+R4
+R5
+R6
+!i122 37
+L0 55 22
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n@data@mem
+vDecode
+R2
+!i10b 1
+!s100 ZjZ`kbUbFR^UHKa4IQYPL2
+I:<Vm_;9GGM2>_z2>VDAZZ2
+R3
+R14
+R15
+R16
+!i122 36
+L0 2 39
+R7
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 0
+R12
+R13
+n@decode
+vExecute
+R2
+!i10b 1
+!s100 gK<B:2Ukc8h1Q]W]]>k@]0
+IMRKOaPiWzl1WK[T:=P^VL0
+R3
+R4
+R5
+R6
+!i122 37
+L0 1 27
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n@execute
+vFetch_Instruction
+R2
+!i10b 1
+!s100 zZbMglGW4UUZzKTk9HHL[0
+IBdY1T9ToU5k4Y8=hbPDT:0
+R3
+Z19 w1733341860
+Z20 8Fetech_Instruction.v
+Z21 FFetech_Instruction.v
+!i122 36
+Z22 L0 1 17
+R7
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 0
+R12
+R13
+n@fetch_@instruction
+vFetch_Instruction_module
+!s110 1733341818
+!i10b 1
+!s100 <D]Wc8jX<c]?7T^[E_`A;1
+IGEWfj99GEIgV;JWdfDE;`3
+R3
+w1733315173
+8Fetech_Instruction_module.v
+FFetech_Instruction_module.v
+!i122 34
+R22
+R7
+R8
+r1
+!s85 0
+31
+!s108 1733341818.000000
+!s107 MIPS_tb.v|Execute_Instruction.v|Decode_Instruction.v|Fetech_Instruction_module.v|TopModule.v|
+!s90 -reportprogress|300|TopModule.v|Fetech_Instruction_module.v|Decode_Instruction.v|Execute_Instruction.v|MIPS_tb.v|
+!i113 0
+R12
+R13
+n@fetch_@instruction_module
+vMIPS_tb
+R2
+!i10b 1
+!s100 lmH5gz2;Vh6GYhOd1Fh_?3
+IHR8SWaKWkgo?Abm?0d5ad3
+R3
+w1733341932
+8MIPS_tb.v
+FMIPS_tb.v
+!i122 37
+L0 1 34
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n@m@i@p@s_tb
+vPC
+R2
+!i10b 1
+!s100 ^9^lePIaliW?DZPkUM>Tb1
+I4]F[OGGN4bimPRNTeQU`O2
+R3
+R19
+R20
+R21
+!i122 36
+L0 19 20
+R7
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 0
+R12
+R13
+n@p@c
+vRegisterFile
+R2
+!i10b 1
+!s100 4k5;j]HY=hdAh:flP]ng41
+IoVlRjCV3]Moc?80k;>]f]1
+R3
+R14
+R15
+R16
+!i122 36
+L0 123 25
+R7
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 0
+R12
+R13
+n@register@file
+vSign_extend
+R2
+!i10b 1
+!s100 9VdmCakS0];o]A<7UQO]T0
+Ijh5d5ZEE2J:WbRI]4CkXc1
+R3
+R14
+R15
+R16
+!i122 36
+L0 150 7
+R7
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 0
+R12
+R13
+n@sign_extend
+vTopModule
+R2
+!i10b 1
+!s100 0Hh6ioN12eRG?9ahQlh]b2
+I<<Fa?7XUR22[;N5621e6n3
+R3
+w1733341939
+8TopModule.v
+FTopModule.v
+!i122 36
+L0 1 14
+R7
+R8
+r1
+!s85 0
+31
+R9
+R17
+R18
+!i113 0
+R12
+R13
+n@top@module
