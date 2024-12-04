@@ -1,5 +1,5 @@
 
-module Decode(Instruction,Write_Data,Branch,MemRead,MemtoReg,MemWrite,ALUop1,ALUop2,ALUfunction);
+module Decode(Instruction,Write_Data,Branch,MemRead,MemtoReg,MemWrite,ALUop1,ALUop2,ALUfunction,ImmiedaiteValue);
 
     //----Ports----
     input [31:0] Instruction,Write_Data;
@@ -7,9 +7,9 @@ module Decode(Instruction,Write_Data,Branch,MemRead,MemtoReg,MemWrite,ALUop1,ALU
     output [31:0] ALUop1;
     output reg [31:0] ALUop2;
     output [3:0] ALUfunction;
+    output [31:0]ImmiedaiteValue;
     
     //----Internal wires----
-    wire [31:0]ImmiedaiteValue;
     wire [31:0]ReadData2;
     wire [4:0] WriteRegister;
     wire [1:0] ALUop;
