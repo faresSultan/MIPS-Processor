@@ -18,21 +18,11 @@ module MIPS_tb ();
 
     TopModule (.clk(clk),.rst_n(rst_n),.ALU_MemResult(Result));
 
-    
-    
-
-    initial begin
-        clk =0;
-
-        forever begin
-            #1 clk = ~clk;
-        end
-    end
-
-
     initial begin
 
         $readmemh("mem.dat", DUT.FetchInstruction.InstructionMemory);
+        $readmemh("RF.dat", DUT.DecodeInstruction.RF);
+        $readmemh("datamem.dat", DUT.ExecuteInstruction.dataMem);
         rst_n = 0;
         @(negedge clk);
         rst_n = 1 ;
@@ -41,9 +31,16 @@ module MIPS_tb ();
         @(negedge clk);
         @(negedge clk);
 
-        $stop;
-
-        
+        $stop;     
     end
+
+     initial begin
+        clk =0;
+
+        forever begin
+            #1 clk = ~clk;
+        end
+    end
+
     
 endmodule
