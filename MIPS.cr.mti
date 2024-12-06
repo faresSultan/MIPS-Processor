@@ -23,15 +23,11 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	TopModule
 
-} {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/Decode_Instruction.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/Decode_Instruction.v}
+} {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/MIPS_tb.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/MIPS_tb.v}
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
--- Compiling module Decode
--- Compiling module ControlUnit
--- Compiling module RegisterFile
--- Compiling module Sign_extend
--- Compiling module ALU_control
+-- Compiling module MIPS_tb
 
 Top level modules:
-	Decode
+	MIPS_tb
 
 } {} {}}
