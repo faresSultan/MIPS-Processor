@@ -26,7 +26,7 @@ module Decode(Instruction,Write_Data,Branch,MemRead,MemtoReg,MemWrite,ALUop1,ALU
 
     Sign_extend SE(.in(Instruction[15:0]),.out(ImmiedaiteValue));
  
-    ALU_control ALU_CU (.ALUop(ALUop),.instruction(Instruction[5:0]),.ALUfunction(ALUfunction));
+    ALU_control ALU_CU (.ALUOp(ALUop),.instruction(Instruction[5:0]),.ALUfunction(ALUfunction));
     
    
    //----Internal wires assignment---- 
@@ -130,10 +130,6 @@ output reg [31:0] Read_data1,Read_data2;
 //------------------------
 
 reg [31:0]RF [0:31];
-
-    initial begin
-        RF[0] = 0; // constant value of $t0;
-    end
 
     always@(*) begin
 

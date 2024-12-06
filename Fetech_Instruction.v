@@ -2,17 +2,20 @@ module Fetch_Instruction(rst_n,clk,nextInstruction,instructionCode,currentInstru
 
     input clk,rst_n;
     input [31:0] nextInstruction;
-    output reg[31:0] currentInstruction,instructionCode;
+    output reg[31:0] instructionCode;
+    output [31:0] currentInstructionAddress;
 
     reg [7:0] InstructionMemory [0:4095];  // 4 Kbyte instruction memory (Byte addressing)
     wire [31:0] instructionAddress;
-    PC pcCounter (.clk(clk),.rst_n(rst_n),.nextInstruction(nextInstruction),.currentInstruction(currentInstructionAddress));
+    PC pcCounter (.clk(clk),.rst_n(rst_n),.nextInstruction(nextInstruction),.currentInstruction(instructionAddress));
 
 
-    always @(currentInstructionAddress) begin
-        instructionCode = {InstructionMemory[currentInstructionAddress],InstructionMemory[currentInstructionAddress+1],
-        InstructionMemory[currentInstructionAddress+2],InstructionMemory[currentInstructionAddress+3]};
+    always @(instructionAddress) begin
+        instructionCode = {InstructionMemory[instructionAddress],InstructionMemory[instructionAddress+1],
+        InstructionMemory[instructionAddress+2],InstructionMemory[instructionAddress+3]};
     end
+
+    assign currentInstructionAddress = instructionAddress;
 
 
 endmodule

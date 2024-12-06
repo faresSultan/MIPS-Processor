@@ -16,23 +16,7 @@ module MIPS_tb ();
 
     wire [31:0] Result;
 
-    TopModule (.clk(clk),.rst_n(rst_n),.ALU_MemResult(Result));
-
-    initial begin
-
-        $readmemh("mem.dat", DUT.FetchInstruction.InstructionMemory);
-        $readmemh("RF.dat", DUT.DecodeInstruction.RF);
-        $readmemh("datamem.dat", DUT.ExecuteInstruction.dataMem);
-        rst_n = 0;
-        @(negedge clk);
-        rst_n = 1 ;
-        @(negedge clk);
-        @(negedge clk);
-        @(negedge clk);
-        @(negedge clk);
-
-        $stop;     
-    end
+    TopModule DUT (.clk(clk),.rst_n(rst_n),.ALU_MemResult(Result));
 
      initial begin
         clk =0;
@@ -40,6 +24,31 @@ module MIPS_tb ();
         forever begin
             #1 clk = ~clk;
         end
+    end
+
+    initial begin
+
+        $readmemh("mem.dat", DUT.InstructionMemory);
+        //$readmemh("registerFile.dat", DUT.RF.RF);
+        $readmemh("datamem.dat", DUT.ExecuteInstruction.dataMem.DataMemory);
+
+        DUT.RF.RF[8] = 32'h00000002;
+        DUT.RF.RF[11] = 32'h00000004;
+        DUT.RF.RF[10] = 32'h00000004;
+
+        rst_n = 0;
+        @(negedge clk);
+        
+        rst_n = 1 ;
+        @(negedge clk);
+        @(negedge clk);
+        @(negedge clk);
+        @(negedge clk);
+        @(negedge clk);
+        @(negedge clk);
+        @(negedge clk); 
+
+        $stop;     
     end
 
     
