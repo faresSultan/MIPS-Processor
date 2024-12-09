@@ -1,0 +1,73 @@
+{D:/ASUFOE/fall24/Computer Architecture/MIPS/BranchModule.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/BranchModule.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module BranchModule
+
+Top level modules:
+	BranchModule
+
+} {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/TopModule.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/TopModule.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module TopModule
+
+Top level modules:
+	TopModule
+
+} {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/RegisterFile.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/RegisterFile.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/ControlUnit.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/ControlUnit.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/SignExtend.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/SignExtend.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module Sign_extend
+
+Top level modules:
+	Sign_extend
+
+} {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/ALU.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/ALU.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/Datamemory.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/Datamemory.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/ALUcontrol.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/ALUcontrol.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module ALU_control
+
+Top level modules:
+	ALU_control
+
+} {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/InstructionMemory.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/InstructionMemory.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/PC.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/PC.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module PC
+-- Compiling module ADD4
+
+Top level modules:
+	PC
+	ADD4
+
+} {} {}}

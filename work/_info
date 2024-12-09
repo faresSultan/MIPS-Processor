@@ -1,0 +1,321 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2021.1/examples
+T_opt
+!s110 1733769689
+Vf@g9PA9L:jOLX^bj:BzES3
+04 2 4 work tb fast 0
+=1-ccf9e498c556-675739d8-336-6850
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vADD4
+Z2 !s110 1733769552
+!i10b 1
+!s100 C@Ba[C5DMVBWZBzVA037M2
+I30joD;R@?T0`8HF2CK01W1
+Z3 dD:/ASUFOE/fall24/Computer Architecture/MIPS
+Z4 w1733682801
+Z5 8D:/ASUFOE/fall24/Computer Architecture/MIPS/PC.v
+Z6 FD:/ASUFOE/fall24/Computer Architecture/MIPS/PC.v
+!i122 82
+L0 16 6
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z9 !s108 1733769552.000000
+Z10 !s107 D:/ASUFOE/fall24/Computer Architecture/MIPS/PC.v|
+Z11 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ASUFOE/fall24/Computer Architecture/MIPS/PC.v|
+!i113 0
+Z12 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@a@d@d4
+vALU
+Z13 !s110 1733769551
+!i10b 1
+!s100 l6kYVVnE85JZ2UB_d?BFD2
+I?i_a[G9haZ^_3`XKX^mR>1
+R3
+w1733764730
+8D:/ASUFOE/fall24/Computer Architecture/MIPS/ALU.v
+FD:/ASUFOE/fall24/Computer Architecture/MIPS/ALU.v
+!i122 77
+Z14 L0 1 19
+R7
+R8
+r1
+!s85 0
+31
+Z15 !s108 1733769550.000000
+!s107 D:/ASUFOE/fall24/Computer Architecture/MIPS/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ASUFOE/fall24/Computer Architecture/MIPS/ALU.v|
+!i113 0
+R12
+R1
+n@a@l@u
+vALU_control
+R13
+!i10b 1
+!s100 ZK0aUXzNB[X8F;L@8<2dm3
+IKSZMXTbA1P3U3S]N;7cSi0
+R3
+w1733734950
+8D:/ASUFOE/fall24/Computer Architecture/MIPS/ALUcontrol.v
+FD:/ASUFOE/fall24/Computer Architecture/MIPS/ALUcontrol.v
+!i122 78
+L0 1 24
+R7
+R8
+r1
+!s85 0
+31
+Z16 !s108 1733769551.000000
+!s107 D:/ASUFOE/fall24/Computer Architecture/MIPS/ALUcontrol.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ASUFOE/fall24/Computer Architecture/MIPS/ALUcontrol.v|
+!i113 0
+R12
+R1
+n@a@l@u_control
+vBranchModule
+!s110 1733769554
+!i10b 1
+!s100 ohWJB9AXT0Q3?VSdjSm8z1
+IF6eMVIj99bXcYaSV?3LN]2
+R3
+w1733768364
+8D:/ASUFOE/fall24/Computer Architecture/MIPS/BranchModule.v
+FD:/ASUFOE/fall24/Computer Architecture/MIPS/BranchModule.v
+!i122 86
+L0 1 18
+R7
+R8
+r1
+!s85 0
+31
+!s108 1733769554.000000
+!s107 D:/ASUFOE/fall24/Computer Architecture/MIPS/BranchModule.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ASUFOE/fall24/Computer Architecture/MIPS/BranchModule.v|
+!i113 0
+R12
+R1
+n@branch@module
+vControlUnit
+R13
+!i10b 1
+!s100 XM03d:bUMU^BF0LTjCY6<0
+IOH00E1AU0aHATg;mnd:Kf3
+R3
+w1733734945
+8D:/ASUFOE/fall24/Computer Architecture/MIPS/ControlUnit.v
+FD:/ASUFOE/fall24/Computer Architecture/MIPS/ControlUnit.v
+!i122 79
+L0 1 68
+R7
+R8
+r1
+!s85 0
+31
+R16
+!s107 D:/ASUFOE/fall24/Computer Architecture/MIPS/ControlUnit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ASUFOE/fall24/Computer Architecture/MIPS/ControlUnit.v|
+!i113 0
+R12
+R1
+n@control@unit
+vDataMemory
+R2
+!i10b 1
+!s100 NgdjmMET=lD0O0]UYeFEG0
+IV?LZ5c7Cz?haT=mMIg3PI0
+R3
+w1733759574
+8D:/ASUFOE/fall24/Computer Architecture/MIPS/Datamemory.v
+FD:/ASUFOE/fall24/Computer Architecture/MIPS/Datamemory.v
+!i122 80
+L0 1 22
+R7
+R8
+r1
+!s85 0
+31
+R16
+!s107 D:/ASUFOE/fall24/Computer Architecture/MIPS/Datamemory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ASUFOE/fall24/Computer Architecture/MIPS/Datamemory.v|
+!i113 0
+R12
+R1
+n@data@memory
+vInstructionMemory
+R2
+!i10b 1
+!s100 J@fIEoJZ=oJYTZ78S5k9Q2
+IGoD_3b`O<<@ma:KmdX=W03
+R3
+w1733682695
+8D:/ASUFOE/fall24/Computer Architecture/MIPS/InstructionMemory.v
+FD:/ASUFOE/fall24/Computer Architecture/MIPS/InstructionMemory.v
+!i122 81
+L0 1 11
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ASUFOE/fall24/Computer Architecture/MIPS/InstructionMemory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ASUFOE/fall24/Computer Architecture/MIPS/InstructionMemory.v|
+!i113 0
+R12
+R1
+n@instruction@memory
+vPC
+R2
+!i10b 1
+!s100 ^`SflAR96UQd;jNzY>TbH1
+IcL2K_F5AoaB59i3EFCKBS0
+R3
+R4
+R5
+R6
+!i122 82
+L0 1 13
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R1
+n@p@c
+vRegisterFile
+Z17 !s110 1733769553
+!i10b 1
+!s100 :YSU9<X8GHYOmOCPzUSDP2
+IN9k[fRjVEoB^5a5:Y>_6V3
+R3
+w1733759633
+8D:/ASUFOE/fall24/Computer Architecture/MIPS/RegisterFile.v
+FD:/ASUFOE/fall24/Computer Architecture/MIPS/RegisterFile.v
+!i122 83
+R14
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ASUFOE/fall24/Computer Architecture/MIPS/RegisterFile.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ASUFOE/fall24/Computer Architecture/MIPS/RegisterFile.v|
+!i113 0
+R12
+R1
+n@register@file
+vSign_extend
+R17
+!i10b 1
+!s100 _mgFA5QUE5PZ4:8zc<gZO0
+I48P?5;BaKBSfdWJ>z3L1O2
+R3
+w1733685265
+8D:/ASUFOE/fall24/Computer Architecture/MIPS/SignExtend.v
+FD:/ASUFOE/fall24/Computer Architecture/MIPS/SignExtend.v
+!i122 84
+L0 1 7
+R7
+R8
+r1
+!s85 0
+31
+!s108 1733769553.000000
+!s107 D:/ASUFOE/fall24/Computer Architecture/MIPS/SignExtend.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ASUFOE/fall24/Computer Architecture/MIPS/SignExtend.v|
+!i113 0
+R12
+R1
+n@sign_extend
+vtb
+!s110 1733769675
+!i10b 1
+!s100 EeObfb952D96ZG7_?<REL3
+IhQC?QLR5fO^@Q<<Bk5P>k0
+R3
+w1733769669
+8D:/ASUFOE/fall24/Computer Architecture/MIPS/tb.v
+FD:/ASUFOE/fall24/Computer Architecture/MIPS/tb.v
+!i122 88
+L0 11 33
+R7
+R8
+r1
+!s85 0
+31
+!s108 1733769675.000000
+!s107 D:/ASUFOE/fall24/Computer Architecture/MIPS/tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ASUFOE/fall24/Computer Architecture/MIPS/tb.v|
+!i113 0
+R12
+R1
+vTopModule
+!s110 1733769550
+!i10b 1
+!s100 J]AGK8IFT:fFDK=n0EG_<1
+IX`hZnRQU=MF5C0EA<VLNU0
+R3
+w1733767257
+8D:/ASUFOE/fall24/Computer Architecture/MIPS/TopModule.v
+FD:/ASUFOE/fall24/Computer Architecture/MIPS/TopModule.v
+!i122 76
+L0 1 54
+R7
+R8
+r1
+!s85 0
+31
+R15
+!s107 D:/ASUFOE/fall24/Computer Architecture/MIPS/TopModule.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ASUFOE/fall24/Computer Architecture/MIPS/TopModule.v|
+!i113 0
+R12
+R1
+n@top@module
