@@ -33,6 +33,13 @@ QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 Top level modules:
 	Sign_extend
 
+} {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/tb.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/tb.v}
+QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+-- Compiling module tb
+
+Top level modules:
+	tb
+
 } {} {}} {D:/ASUFOE/fall24/Computer Architecture/MIPS/ALU.v} {1 {vlog -work work -vopt -stats=none {D:/ASUFOE/fall24/Computer Architecture/MIPS/ALU.v}
 QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
 -- Compiling module ALU
